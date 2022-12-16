@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <style>
+
+  </style>
+</head>
+
+<body class="fs-400 bg-very-dark-blue txt-white">
+
+  <main>
+    <div class="rating-card bg-dark-blue">
+      <img class="bg-light-blue" src="images/icon-star.svg" alt="star icon">
+      <h2 class="fw-700"> How did we do?</h2>
+      <p class="txt-light-grey fs-400 fw-400">Please let us know how we did with your support request. All feedback is
+        appreciated
+        to help us improve our offering!</p>
+      <div class="rating-card__rate">
+        <button rating-value="1" class="txt-white bg-light-blue">1</button>
+        <button rating-value="2" class="txt-white bg-light-blue">2</button>
+        <button rating-value="3" class="txt-white bg-light-blue">3</button>
+        <button rating-value="4" class="txt-white bg-light-blue">4</button>
+        <button rating-value="5" class="txt-white bg-light-blue">5</button>
+      </div>
+      <button class="bg-primary txt-white">Submit</button>
+    </div>
+
+    <div class="thankyou-card bg-dark-blue">
+      <img src="images/illustration-thank-you.svg">
+      <p class="fs-400 bg-light-blue txt-primary">You selected out of 5</p>
+      <h1 class="fw-700">Thank you!</h1>
+      <p class="fs-300 txt-light-grey txt-center">We appreciate you taking the time to give a rating.</p>
+      <p class="fs-300 txt-light-grey txt-center">If you ever need more support, don’t hesitate to </p>
+      <p class="fs-300 txt-light-grey txt-center">get in touch!</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Prateek Saini</a>.
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
